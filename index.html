@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Styles.css">
+</head>
+<body style="background-color: #7b8eb5;">
+  <div id="full-page-background-tiles">
+    <div id="upload-panel">
+      <h1>Seamless Background Preview</h1>
+
+      <input type="file" name="inpFile" id="inpFile">
+
+      <div class="image-preview" id="imagePreview">
+
+        <img src="" alt="Image Preview" class="image-preview__image">
+
+        <span class="image-preview__default-text">Image Preview</span>
+
+      </div>
+      <div id="img-dimensions">
+        <label for="width">Width:</label>
+        <input type="text" id="img-width" name="width" value="auto">
+        &nbsp;&nbsp;&nbsp;
+        <label for="height">Height:</label>
+        <input type="text" id="img-height" name="height" value="auto">
+      </div>
+      <button id="delete-bg" class="btn delete-button">Delete Background</button>
+    </div>
+  </div>
+
+
+    <script src="./BGPreview.js"></script>
+</body>
+</html>
